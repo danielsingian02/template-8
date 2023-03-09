@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.site-container {
+    background-image: url(assets/images/bodybg.png);
+    background-size: 100% auto;
+    padding-right: 7em ;
+    background-repeat: repeat;
+}
+
+.side-navbar {
+    padding: 2em 3em;
+    @media only screen and (max-width: 1024px) {
+        padding: 2em 1em;
+    }    
+}
+
+/* About Banner */
+.hero-banner {
+    background-image: url('assets/images/Herobg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 544px; 
+}
+
+.hero-banner__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 86px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color:white;
+}
+
+.hero-banner a:visited {
+    color:white !important;
+}
+
+.hero-banner a:hover {
+    color:black !important;
+}
+
+
+/* end of About Banner */
+
+/* About */
+.about__head-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #292929;
+    text-align: center;
+    padding: 1em
+}
+
+.col__heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+
+.col_list {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #747474;
+    padding: 1em 0;
+}
+
+.col__para {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #767676;
+    padding: 1em 0;
+}
+/* end of About*/
+
+/* Our Project */
+.projects__head {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    padding: 20px 0;
+    margin: 0px;
+}
+
+.f-cards {
+    width: 342px;
+    height: 658.56px;
+    background-image: url('assets/images/cardbg1.png');
+    padding: 20px;
+}
+
+.s-cards {
+    width: 342px;
+    height: 658.56px;
+    background-image: url('assets/images/cardbg2.png');
+    padding: 20px;
+}
+
+.t-cards {
+    width: 342px;
+    height: 658.56px;
+    background-image: url('assets/images/cardbg3.png');
+    padding: 20px;
+}
+
+.ft-cards {
+    width: 342px;
+    height: 658.56px;
+    background-image: url('assets/images/cardbg4.png');
+    padding: 20px;
+}
+
+.card__heading {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color:white;
+}
+
+.card__subhead {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.585em;
+    text-align: left;
+    writing-mode: vertical-rl; 
+    -webkit-transform: rotate(-180deg);
+    color:white;
+    margin-left: 3px;
+}
+
+.head__wrap {
+    height: 10%;
+}
+
+.subhead__wrap {
+    height: 90%;
+    display: flex;
+}
+/* End of Project */
+
+/* Info */
+.head-wrap {
+    padding: 5em 0;
+}
+
+.info__head {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #292929;
+}
+
+.info__desc {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #767676;
+    text-align: center;
+    width: 50%;
+}
+
+.subhead-wrap {
+    width: 100%;
+}
+
+.info__subhead {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info__subdesc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info-list {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 20px;
+    width: 95%;
+}
+
+.info__img {
+    border-style: solid;
+    border-width: 0 2em;
+    border-color: #E6E6E6;
+    width: 100%;
+}
+
+.list-icon {
+    width: 5%;
+}
+/* End of Info */
+
+/* Team */
+.team__head {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #292929;
+}
+
+.team_desc {
+    width: 50%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    color: #767676;
+}
+
+.team__img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-container {
+    width: 20%;
+}
+
+.gallery-wrap {
+    padding: 0 1em;
+}
+/* end of Team */
+
+/* Location */
+.cards__city {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.cards__address {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+/* end of Location */
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR TABLET  (768px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 768px) {
+    /* Hero */
+    .hero-banner__text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    /* About */
+    .about__head-text {
+        padding: 1em 0;
+    }
+
+    .info__desc {
+        margin: 20px 0;
+    }
+
+    .head-wrap {
+        padding: 2em;   
+    }
+
+    .col-sec.flex {
+        flex-direction: column-reverse;
+        padding: 0em;
+    }
+
+    .row-wrap.center-items-row {
+        width:100%
+    }
+
+    .col-sec.flex .row-wrap {
+        width: 100%;
+    }
+
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 425px) {
+    /* Hero Banner */
+    .cards-wrapper {
+        flex-wrap: wrap;
+    }
+    
+    /* About */
+    #about .col-sec {
+        padding: 2em;
+    }
+
+    /* info */
+    .col-sec.flex .row-wrap{
+        width: 100%;
+    }
+
+    .col-sec.flex {
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    /* Team */
+    .team_desc {
+        width: 100%;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .info__desc {
+        width: 100%;
+    }
+
+    .gallery-wrap {
+        flex-direction: column;
+    }
+
+    /* Contact */
+    .contact-wrap.center-items-row {
+        flex-direction: column;
+    }
+
+    .contact .cards {
+        width: 100%;
+    }
+
+    .contact-wrap .pd-cards {
+        padding: 1em 2em;
+    }
+}
+

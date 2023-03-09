@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500&display=swap');
+
+
+.footer-section{
+    padding: 1em 7em 1em 7em;
+    margin-bottom: -40px;
+    @media only screen and (max-width: 425px) { 
+      padding: 1em 2em ;
+    }
+}
+
+.footer-wrap {
+    width: 100%;
+}
+
+.footer-section__col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #E8E8E8;
+    padding: 0 2em;
+}
+
+.footer-section__col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.footer__navigation{
+    padding:0px ;
+  
+    & li {
+      display: flex;
+      list-style-type: none;
+      border-color: transparent;
+      color: black;
+    }
+  
+    & ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      justify-content: start;
+      margin: 0px;
+      padding: 30px 0px 30px 0px;
+      text-align: right;
+    }
+  
+    & a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+
+ @media only screen and (max-width: 768px) {
+
+  .footer__credits {
+    display: none;
+  }
+
+  p.footer__credits.mb {
+    display: block;
+  }
+
+  .footer-section__col1{
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .footer-section__col2{
+    width: 100%;
+
+}
+
+  .footer-wrap.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+  .footer__navigation{
+    padding:0px ;
+  
+    & li {
+      display: flex;
+      list-style-type: none;
+      border-color: transparent;
+      color: white;
+      padding: 10px;
+    }
+  
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+  
+    & a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  .footer__credits{
+    text-align: center;
+  }
+}
