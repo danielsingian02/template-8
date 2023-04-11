@@ -856,13 +856,13 @@
    .projects-img {
      width: 100%;
    }
- 
+
    .hero-banner__text {
      font-size: 40px;
      line-height: 40px;
    }
 
- 
+
    .about__head-text {
      padding: 1em 0;
    }
@@ -913,17 +913,17 @@
      padding: 0em;
    }
 
- 
+
    .cards-wrapper {
      flex-wrap: wrap;
    }
 
- 
+
    #about .col-sec {
      padding: 2em;
    }
 
- 
+
    .col-sec.flex .row-wrap {
      width: 100%;
    }
@@ -933,7 +933,7 @@
      padding: 0px;
    }
 
- 
+
    .team_desc {
      width: 100%;
    }
@@ -950,7 +950,7 @@
      flex-direction: column;
    }
 
- 
+
    .contact-wrap.center-items-row {
      flex-direction: column;
    }
