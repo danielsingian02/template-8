@@ -26,7 +26,8 @@
     width: 15%;
 }
 
-.post, .page {
+.post,
+.page {
     margin: 0px !important;
 }
 
@@ -36,7 +37,7 @@
 
 // flex displays 
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -88,14 +89,13 @@
     width: 20%;
 }
 
-// section margin for desktop //
-
+ 
 .col-sec {
-    padding:7em;
+    padding: 7em;
 }
 
 .row-wrap {
-    width:50%
+    width: 50%
 }
 
 .pd-sm {
@@ -121,9 +121,6 @@
 .pd-cards {
     padding: 3em;
 }
-
-
-// ----------------------- MOBILE RESPONSIVE ---------------------------//
 
 .mb-txt-cr {
     text-align: center;

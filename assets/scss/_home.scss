@@ -20,9 +20,15 @@
     grid-row-gap: 0px;
 }
 
-.about__img { grid-area:2 / 2 / 4 / 4;}
-.heading { grid-area: 1 / 1 / 2 / 3;}
-.about__desc { 
+.about__img {
+    grid-area: 2 / 2 / 4 / 4;
+}
+
+.heading {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.about__desc {
     grid-area: 2 / 1 / 3 / 3;
     padding-top: 2em;
 }
@@ -57,14 +63,20 @@
     // grid-template-rows: repeat(3, 0.5fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
-    
-    .projects__img  { grid-area: 2 / 1 / 4 / 3; }
-    .projects__head { grid-area: 1 / 2 / 2 / 4; }
-    .projects__desc { 
-        grid-area: 2 / 2 / 3 / 4; 
-        padding-top: 2em;
-    }
+}
+
+.projects__img {
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.projects__head {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.projects__desc {
+    grid-area: 2 / 2 / 3 / 4;
+    padding-top: 2em;
+}
 
 .projects-container {
     background-color: white;
@@ -100,9 +112,10 @@
     width: 493px;
     height: 406px;
 }
+
 /* Location */
 #location {
-    padding: 2em 5em ;
+    padding: 2em 5em;
 }
 
 .location__image {
@@ -111,19 +124,13 @@
 
 
 
-// --------------------------------------------------------------------------------------------------------//
-//                                          SCREEN SIZE FOR TABLET  (1024px)                                //
-// --------------------------------------------------------------------------------------------------------//
-
-@media only screen and (max-width: 1024px) {
-}
-
 
 // --------------------------------------------------------------------------------------------------------//
 //                                          SCREEN SIZE FOR TABLET  (768px)                                //
 // --------------------------------------------------------------------------------------------------------//
 
 @media only screen and (max-width: 768px) {
+
     /* About */
     #about {
         display: none;
@@ -161,4 +168,3 @@
         padding: 0em;
     }
 }
-

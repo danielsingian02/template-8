@@ -5,15 +5,16 @@
 .site-container {
     background-image: url(assets/images/bodybg.png);
     background-size: 100% auto;
-    padding-right: 7em ;
+    padding-right: 7em;
     background-repeat: repeat;
 }
 
 .side-navbar {
     padding: 2em 3em;
+
     @media only screen and (max-width: 1024px) {
         padding: 2em 1em;
-    }    
+    }
 }
 
 /* About Banner */
@@ -22,7 +23,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 544px; 
+    height: 544px;
 }
 
 .hero-banner__text {
@@ -32,15 +33,15 @@
     line-height: 76px;
     letter-spacing: -0.005em;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .hero-banner a:visited {
-    color:white !important;
+    color: white !important;
 }
 
 .hero-banner a:hover {
-    color:black !important;
+    color: black !important;
 }
 
 
@@ -89,6 +90,7 @@
     color: #767676;
     padding: 1em 0;
 }
+
 /* end of About*/
 
 /* Our Project */
@@ -138,7 +140,7 @@
     line-height: 21px;
     letter-spacing: -0.005em;
     text-align: left;
-    color:white;
+    color: white;
 }
 
 .card__subhead {
@@ -148,9 +150,9 @@
     line-height: 21px;
     letter-spacing: 0.585em;
     text-align: left;
-    writing-mode: vertical-rl; 
+    writing-mode: vertical-rl;
     -webkit-transform: rotate(-180deg);
-    color:white;
+    color: white;
     margin-left: 3px;
 }
 
@@ -162,6 +164,7 @@
     height: 90%;
     display: flex;
 }
+
 /* End of Project */
 
 /* Info */
@@ -233,6 +236,7 @@
 .list-icon {
     width: 5%;
 }
+
 /* End of Info */
 
 /* Team */
@@ -270,6 +274,7 @@
 .gallery-wrap {
     padding: 0 1em;
 }
+
 /* end of Team */
 
 /* Location */
@@ -288,6 +293,7 @@
     line-height: 32px;
     letter-spacing: 0em;
 }
+
 /* end of Location */
 
 // --------------------------------------------------------------------------------------------------------//
@@ -295,6 +301,7 @@
 // --------------------------------------------------------------------------------------------------------//
 
 @media only screen and (max-width: 768px) {
+
     /* Hero */
     .hero-banner__text {
         font-size: 40px;
@@ -311,7 +318,7 @@
     }
 
     .head-wrap {
-        padding: 2em;   
+        padding: 2em;
     }
 
     .col-sec.flex {
@@ -320,7 +327,7 @@
     }
 
     .row-wrap.center-items-row {
-        width:100%
+        width: 100%
     }
 
     .col-sec.flex .row-wrap {
@@ -334,18 +341,19 @@
 // --------------------------------------------------------------------------------------------------------//
 
 @media only screen and (max-width: 425px) {
+
     /* Hero Banner */
     .cards-wrapper {
         flex-wrap: wrap;
     }
-    
+
     /* About */
     #about .col-sec {
         padding: 2em;
     }
 
     /* info */
-    .col-sec.flex .row-wrap{
+    .col-sec.flex .row-wrap {
         width: 100%;
     }
 
@@ -353,7 +361,7 @@
         flex-direction: column;
         padding: 0px;
     }
-    
+
     /* Team */
     .team_desc {
         width: 100%;
@@ -384,4 +392,3 @@
         padding: 1em 2em;
     }
 }
-
